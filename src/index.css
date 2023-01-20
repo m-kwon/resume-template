@@ -1,0 +1,15 @@
+body {
+  margin: 0px;
+  background-color: blanchedalmond;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+}
+
+@media print {
+  body {
+    background-color: white;
+  }
+}
