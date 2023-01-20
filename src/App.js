@@ -24,10 +24,10 @@ function App() {
     const removeButts = document.querySelectorAll('.remove');
 
     if (editState === 'false') {
-      addButts.forEarch((button) => button.className = 'add hidden');
+      addButts.forEach((button) => button.className = 'add hidden');
       removeButts.forEach((button) => button.className = 'remove hidden');
     } else {
-      addButts.forEarch((button) => button.className = 'add');
+      addButts.forEach((button) => button.className = 'add');
       removeButts.forEach((button) => button.className = 'remove');
     }
   }, [editState]);
